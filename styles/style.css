@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 900px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #fff;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    margin: 5px;
+}
+
+.navbar{
+    height: 60px;
+    background-color: rgb(180, 177, 172);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-container{
+    display: flex;
+    flex:1;
+    align-items: center;
+}
+
+.logo{
+    flex:2;
+}
+
+.search{
+    margin: 0 10px;
+}
+
+input{
+    border-radius: 0x;
+    padding: 6px;
+}
+
+.access{
+    display: flex;
+    gap: 10px;
+}
+
+.menu-content{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    color: #fff;
+    background-color: rgb(65, 42, 42);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.section1{
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(215, 213, 213);
+}
+
+.section1-container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.section1-content{
+    flex:1;
+    padding: 40px 0;
+}
+
+.section1-text>h1{
+    font-size: 2.5em;
+}
+
+.section1-CTA{
+    background-color: black;
+    padding: 10px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.section1-image{
+    background-color: ;
+    height: 200px;
+    border-radius: 5px;
+    background-color:rgb(180, 177, 172);
+}
+
+/*Section 2*/
+
+.section2{
+    height: 70px;
+    display: flex;
+    margin: -35px 0 35px;
+    justify-content: center;
+}
+
+.section2-container{
+    display: flex;
+    color: #000;
+    background-color: rgb(180, 177, 172);
+    align-items: center;
+    justify-content: center;
+}
+
+.section2-content{
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+}
+
+/*section 3*/
+.section3{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section3-caption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.section3-mainbody{
+    display: flex;
+    color: #000;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;   
+}
+
+.section3-content{
+    flex: 1;
+    text-align: justify;
+}
+
+.section3-image{
+    flex: 2;
+    height: 320px;
+    background-color: rgb(180, 177, 172);
+    border-radius: 5px;
+}
+
+/*Section 4*/
+
+.section4{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(215, 213, 213);
+    margin-top: 100px;
+}
+
+.section4-caption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 30px 30px;
+}
+
+.section4-mainbody{
+    display: flex;
+    text-align: center;
+    gap: 15px;
+    font-size: 12px;
+}
+
+.section4-image{
+    padding: 20px;
+    flex: 1;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.section4-subcontent-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+.section4-subcontent-img{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(215, 213, 213);
+    border-radius: 60px;
+}
+
+
+/*Section 5*/
+
+.section5{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff
+}
+
+
+
+.section5-caption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px;
+}
+
+.section5-mainbody{
+    display: flex;
+    text-align: justify;
+    gap: 15px;
+}
+
+.section5-description{
+    flex: 1; 
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 2px solid  rgb(215, 213, 213);
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.section5-subbody{
+    flex: 3;
+    display: flex;
+    gap: 10px;
+}
+    
+.section5-image{
+    flex: 1;
+    height: 320px;
+    background-color: rgb(215, 213, 213);
+}
+
+.section5-subbody-column{
+    flex: 1;
+    justify-content: space-between;
+
+}
+
+.section5-description-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.one{
+    flex: 1;
+}
+
+.section5-subcontent-img{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(215, 213, 213);
+    border-radius: 60px;
+}
+
+.section5-subcontent-text{
+    flex:3;
+}
+
+
+
+
+
+
+
+
+
